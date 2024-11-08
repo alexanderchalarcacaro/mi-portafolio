@@ -94,6 +94,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "repo": "https://github.com/alexanderchalarcacaro/portfolio.git",
+            "branch": "gh-pages",
+            "dir": "dist/portfolio/browser"
+          }
         }
       }
     }
